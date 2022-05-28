@@ -16,7 +16,7 @@ const BusinessSummary = () => {
                         </div>
                         <div className="col-md-6">
                             <div className='ms-3 mb-3 mb-lg-0'>
-                                <h1 className='my-4'>New Arrival</h1>
+                                <h1 className='my-4 text-primary'>New Arrival</h1>
                                 <p>Cleaner and more efficient power delivery to the CPU with better thermal performance ensure stability under high CPU frequencies and heavy loading.</p>
                                 <div style={{ paddingLeft: '2rem' }}>
                                     <ul  >
