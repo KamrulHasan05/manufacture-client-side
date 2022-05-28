@@ -12,7 +12,7 @@ const Parts = () => {
     }, [])
     return (
         <section className='my-5 container'>
-            <h1 className='text-center my-4'>Our <span className='text-primary'>Products</span></h1>
+            <h1 className='text-center my-4'> <span className='text-primary'>Our Products</span></h1>
             <div className="row g-3">
                 {
                     newParts.map((p, index) => <PartsDetails key={index} parts={p}></PartsDetails>)

@@ -10,7 +10,7 @@ const Banner = () => {
                         <div className='p-3'>
                             <h1 className='heading-title text-primary mb-3'>GIGABYTE MOTHERBOARD</h1>
                             <p>GIGABYTE Ultra Durable™ 3 series motherboards provide the stability, reliability and longevity essential to meet the power needs of high-end processors and other components running today's most demanding applications and games.</p>
-                            <button className='btn btn-success'>Explore  Now</button>
+                            <button className='btn btn-primary'>Explore  Now</button>
                         </div>
                     </div>
                     <div className="col-md-6 text-md-end">
