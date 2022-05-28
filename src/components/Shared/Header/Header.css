@@ -1,9 +1,8 @@
 .navigation-bar {
-    background: #ececec;
+    background: #fff;
 }
 
 .nav-link {
-    color: #157347 !important;
     padding: 10px !important;
     font-weight: 500;
     font-size: 18px;

@@ -4,7 +4,7 @@ import './Banner.css';
 const Banner = () => {
     return (
         <section className='mb-5 py-5 banner-section'>
-            <div className="container">
+            <div className="container border">
                 <div className='d-flex align-items-center justify-content-between'>
                     <div className="col-md-6">
                         <div className='p-3'>
