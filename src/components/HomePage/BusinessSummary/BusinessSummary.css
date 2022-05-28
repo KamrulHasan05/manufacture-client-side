@@ -1,11 +1,3 @@
 .about-section {
     background-color: aliceblue;
 }
-
-.counter-section {
-    background-image: linear-gradient(#000000b9, #000000b9);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}

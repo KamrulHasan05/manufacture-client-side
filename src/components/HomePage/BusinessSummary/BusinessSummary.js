@@ -32,48 +32,6 @@ const BusinessSummary = () => {
                     </div>
                 </div>
             </div>
-            <div className='counter-section'>
-                <div className='container'>
-                    <div className=' py-5'>
-                        <div className='d-flex py-5 flex-lg-row flex-column align-items-center justify-content-between text-center'>
-                            <div className='my-3 my-lg-0'>
-                                <h1 className='text-white'><FaFlag /></h1>
-                                <h1 className='text-white'><CountUp
-                                    end={192}
-                                    duration={3}
-                                />
-                                </h1>
-                                <h3 className='text-white'>Country</h3>
-                            </div>
-                            <div className='my-3 my-lg-0'>
-                                <h1 className='text-white'><FaUserClock /></h1>
-                                <h1 className='text-white'>
-                                    <CountUp
-                                        end={1250}
-                                        duration={3}
-                                    />+</h1>
-                                <h3 className='text-white'>Happy Client</h3>
-                            </div>
-                            <div className='my-3 my-lg-0'>
-                                <h1 className='text-white'><FaStreetView /></h1>
-                                <h1 className='text-white'><CountUp
-                                    end={980}
-                                    duration={3}
-                                />+</h1>
-                                <h3 className='text-white'>Client Reviews</h3>
-                            </div>
-                            <div className='my-3 my-lg-0'>
-                                <h1 className='text-white'><FaIndustry /></h1>
-                                <h1 className='text-white'><CountUp
-                                    end={68}
-                                    duration={3}
-                                /></h1>
-                                <h3 className='text-white'>Branch</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
     );
 };
