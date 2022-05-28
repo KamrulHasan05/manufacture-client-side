@@ -11,16 +11,16 @@ const SingleParts = ({ parts, i, refetch, setRefetch }) => {
     const handelDelete = (_id) => {
         const handleClose = () => setShow(false);
 
-        fetch(`https://desolate-sands-37810.herokuapp.com/delete-parts/${parts?._id}`, {
-            method: 'DELETE'
-        })
-            .then(res => res.json())
-            .then(data => {
-                if (data.acknowledged === true) {
-                    toast.error('product delete success');
-                    setRefetch(!refetch);
-                }
-            })
+        // fetch(`https://evening-cove-42759.herokuapp.com/deleteParts/${parts?._id}`, {
+        //     method: 'DELETE'
+        // })
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         if (data.acknowledged === true) {
+        //             toast.error('product delete success');
+        //             setRefetch(!refetch);
+        //         }
+        //     })
         handleClose();
     }
     const handleClose = () => setShow(false);

@@ -7,7 +7,7 @@ const ManageProduct = () => {
     const [parts, setParts] = useState([]);
     const [refetch, setRefetch] = useState(false);
     useEffect(() => {
-        fetch('https://desolate-sands-37810.herokuapp.com/parts')
+        fetch('https://evening-cove-42759.herokuapp.com/parts')
             .then(res => res.json())
             .then(data => setParts(data))
     }, [refetch]);

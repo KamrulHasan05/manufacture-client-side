@@ -21,7 +21,7 @@ const MyProfile = () => {
         const linkedin = event.target.linkedin.value;
         const userData = { email, education, location, phone, fblink, linkedin }
 
-        fetch("https://desolate-sands-37810.herokuapp.com/users", {
+        fetch("https://evening-cove-42759.herokuapp.com/users", {
             method: "PUT",
             headers: {
                 'content-type': 'application/json',

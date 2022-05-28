@@ -6,7 +6,7 @@ const Parts = () => {
     const reversArr = [...parts].reverse();
     const newParts = reversArr.slice(0, 6);
     useEffect(() => {
-        fetch('https://desolate-sands-37810.herokuapp.com/parts')
+        fetch('https://evening-cove-42759.herokuapp.com/parts')
             .then(res => res.json())
             .then(data => setParts(data))
     }, [])

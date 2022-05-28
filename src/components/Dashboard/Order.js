@@ -11,7 +11,7 @@ const Order = ({ order, setRefetch, refetch }) => {
 
     const handelCancel = () => {
         const handleClose = () => setShow(false);
-        fetch(`https://desolate-sands-37810.herokuapp.com/orders/${_id}`, {
+        fetch(`https://evening-cove-42759.herokuapp.com/orders/${_id}`, {
             method: "DELETE",
         })
             .then(res => res.json())

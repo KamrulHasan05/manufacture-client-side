@@ -39,7 +39,7 @@ const Purchase = () => {
     }
 
     useEffect(() => {
-        fetch(`https://desolate-sands-37810.herokuapp.com/purchase/${id}`,)
+        fetch(`https://evening-cove-42759.herokuapp.com/purchase/${id}`,)
             .then(res => res.json())
             .then(data => setPurchaseProduct(data))
     }, [id]);
@@ -51,7 +51,7 @@ const Purchase = () => {
         const orderData = { displayName, email, quantity, name, price, location, phone, };
         console.log(orderData);
 
-        fetch("https://desolate-sands-37810.herokuapp.com/orders", {
+        fetch("https://evening-cove-42759.herokuapp.com/orders", {
             method: "POST",
             headers: {
                 "content-type": "application/json"

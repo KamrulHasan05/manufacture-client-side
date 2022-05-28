@@ -1,5 +1,7 @@
 import React from 'react';
 import './BusinessSummary.css';
+import { FaFlag, FaUserClock, FaStreetView, FaIndustry } from "react-icons/fa";
+import CountUp from 'react-countup';
 
 const BusinessSummary = () => {
     return (
@@ -30,6 +32,49 @@ const BusinessSummary = () => {
                     </div>
                 </div>
             </div>
+            <div className='counter-section'>
+                <div className='container border'>
+                    <div className=' py-5'>
+                        <div className='d-flex py-5 flex-lg-row flex-column align-items-center justify-content-between text-center'>
+                            <div className='my-3 my-lg-0'>
+                                <h1  ><FaFlag /></h1>
+                                <h1  ><CountUp
+                                    end={192}
+                                    duration={3}
+                                />
+                                </h1>
+                                <h3  >Country</h3>
+                            </div>
+                            <div className='my-3 my-lg-0'>
+                                <h1  ><FaUserClock /></h1>
+                                <h1  >
+                                    <CountUp
+                                        end={1250}
+                                        duration={3}
+                                    />+</h1>
+                                <h3  >Happy Client</h3>
+                            </div>
+                            <div className='my-3 my-lg-0'>
+                                <h1  ><FaStreetView /></h1>
+                                <h1  ><CountUp
+                                    end={980}
+                                    duration={3}
+                                />+</h1>
+                                <h3  >Client Reviews</h3>
+                            </div>
+                            <div className='my-3 my-lg-0'>
+                                <h1  ><FaIndustry /></h1>
+                                <h1  ><CountUp
+                                    end={68}
+                                    duration={3}
+                                /></h1>
+                                <h3  >Branch</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
     );
 };

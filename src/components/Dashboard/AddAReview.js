@@ -15,7 +15,7 @@ const AddAReview = () => {
             return toast.error('your rating value must be 1 to 5')
         }
         const reviewData = { name, body, rating }
-        fetch('https://desolate-sands-37810.herokuapp.com/review', {
+        fetch('https://evening-cove-42759.herokuapp.com/review', {
             method: "POST",
             headers: {
                 'content-type': "application/json"
