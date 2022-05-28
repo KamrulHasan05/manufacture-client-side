@@ -1,13 +1,11 @@
 import React from 'react';
 import './BusinessSummary.css';
-import { FaFlag, FaUserClock, FaStreetView, FaIndustry } from "react-icons/fa";
-import CountUp from 'react-countup';
 
 const BusinessSummary = () => {
     return (
         <section className=' mt-5 pt-5'>
             <div className='about-section'>
-                <div className="container">
+                <div className="container border">
                     <div className='d-flex py-5 justify-content-between align-items-center '>
                         <div className="col-md-6">
                             <div>
