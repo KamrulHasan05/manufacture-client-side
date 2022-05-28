@@ -95,7 +95,7 @@ const Signup = () => {
                     <div className='or fs-5'>Or</div>
                 </div>
                 <div className='text-center mt-4'>
-                    <button onClick={() => signInWithGoogle()} className='google-button w-100 border-0'>Login With Google</button>
+                    <button onClick={() => signInWithGoogle()} className='btn btn-primary w-100 border-0'>Login With Google</button>
                 </div>
             </div>
         </div>
